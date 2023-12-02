@@ -1,0 +1,5 @@
+/node_modules
+
+#Ignorar todo en /.secret para mantener las contraseñas seguras
+/.secrets/*
+!/.secrets/.gitkeep
