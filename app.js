@@ -22,9 +22,17 @@ app.put('/usuarios/:id([0-9]+)', UsuariosController.itemPut);
 app.patch('/usuarios/:id([0-9]+)', UsuariosController.itemPatch);
 
 app.get('/contactos', ContactosControllers.indexGet);
+app.post('/contactos', ContactosControllers.indexPost);
+app.patch('/contactos/:id([0-9]+)', ContactosControllers.itemPatch);
+
 app.get('/mensajes', MensajesController.indexGet);
+app.post('/mensajes', MensajesController.indexPost);
+
 app.get('/rno', RNOController.indexGet);
+app.post('/rno', RNOController.indexPost);
+
 app.get('/rpc', RPCController.indexGet);
+app.post('/rpc', RPCController.indexPost);
 
 
 app.listen(puerto, function(){

@@ -7,6 +7,12 @@ class MensajesModel {
         return await query;
     }
 
+    static async insertar(datos) {
+        let db = await connectMySql();
+        const result = await db('Mensajes').insert(datos).returning('MensajeID');
+        return result[0];
+    }
+
 }
 
 module.exports = MensajesModel;
