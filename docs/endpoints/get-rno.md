@@ -9,7 +9,20 @@ GET /rno
 
 ## Respuesta Exitosa (Código 200 OK)
 ```json
-[{"ReporteID":1,"UsuarioID":1,"FechaHora":"2023-12-01T18:31:24.000Z","NivelesOxigeno":"98.50"},{"ReporteID":2,"UsuarioID":2,"FechaHora":"2023-12-01T18:31:24.000Z","NivelesOxigeno":"97.20"},{"ReporteID":3,"UsuarioID":3,"FechaHora":"2023-12-01T18:31:24.000Z","NivelesOxigeno":"96.80"},{"ReporteID":4,"UsuarioID":4,"FechaHora":"2023-12-01T18:31:24.000Z","NivelesOxigeno":"98.00"},{"ReporteID":5,"UsuarioID":5,"FechaHora":"2023-12-01T18:31:24.000Z","NivelesOxigeno":"95.50"}]
+[
+  {
+    "ReporteID":1,
+    "UsuarioID":1,
+    "FechaHora":"2023-12-01T18:31:24.000Z",
+    "NivelesOxigeno":"98.50"
+  },
+  {
+    "ReporteID":2,
+    "UsuarioID":2,
+    "FechaHora":"2023-12-01T18:31:24.000Z",
+    "NivelesOxigeno":"97.20"
+  }
+]
 ```
 
 ## Respuestas de Errores Posibles

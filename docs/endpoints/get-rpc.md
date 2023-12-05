@@ -9,7 +9,20 @@ GET /rpc
 
 ## Respuesta Exitosa (Código 200 OK)
 ```json
-[{"ReporteID":1,"UsuarioID":1,"FechaHora":"2023-12-01T18:31:24.000Z","PulsacionesPorMinuto":72},{"ReporteID":2,"UsuarioID":2,"FechaHora":"2023-12-01T18:31:24.000Z","PulsacionesPorMinuto":68},{"ReporteID":3,"UsuarioID":3,"FechaHora":"2023-12-01T18:31:24.000Z","PulsacionesPorMinuto":80},{"ReporteID":4,"UsuarioID":4,"FechaHora":"2023-12-01T18:31:24.000Z","PulsacionesPorMinuto":75},{"ReporteID":5,"UsuarioID":5,"FechaHora":"2023-12-01T18:31:24.000Z","PulsacionesPorMinuto":88}]
+[
+  {
+    "ReporteID":1,
+    "UsuarioID":1,
+    "FechaHora":"2023-12-01T18:31:24.000Z",
+    "PulsacionesPorMinuto":72
+  },
+  {
+    "ReporteID":2,
+    "UsuarioID":2,
+    "FechaHora":"2023-12-01T18:31:24.000Z",
+    "PulsacionesPorMinuto":68
+  }
+]
 ```
 
 ## Respuestas de Errores Posibles

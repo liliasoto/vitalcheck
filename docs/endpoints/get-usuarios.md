@@ -9,7 +9,28 @@ GET /usuarios
 
 ## Respuesta Exitosa (Código 200 OK)
 ```json
-[{"UsuarioID":1,"Nombre":"Juan","Apellido":"Gómez","CorreoElectronico":"juan.gomez@email.com","Edad":35,"Peso":"75.50","Estatura":"175.00","Sexo":"M"},{"UsuarioID":2,"Nombre":"Ana","Apellido":"Martínez","CorreoElectronico":"ana.martinez@email.com","Edad":28,"Peso":"62.20","Estatura":"160.00","Sexo":"F"},{"UsuarioID":3,"Nombre":"Carlos","Apellido":"López","CorreoElectronico":"carlos.lopez@email.com","Edad":45,"Peso":"80.00","Estatura":"180.00","Sexo":"M"},{"UsuarioID":4,"Nombre":"María","Apellido":"Sánchez","CorreoElectronico":"maria.sanchez@email.com","Edad":50,"Peso":"68.80","Estatura":"165.00","Sexo":"F"},{"UsuarioID":5,"Nombre":"Pedro","Apellido":"Rodríguez","CorreoElectronico":"pedro.rodriguez@email.com","Edad":40,"Peso":"90.30","Estatura":"185.00","Sexo":"M"}]
+[
+  {
+    "UsuarioID":1,
+    "Nombre":"Juan",
+    "Apellido":"Gómez",
+    "CorreoElectronico":"juan.gomez@email.com",
+    "Edad":35,
+    "Peso":"75.50",
+    "Estatura":"175.00",
+    "Sexo":"M"
+  },
+  {
+    "UsuarioID":2,
+    "Nombre":"Ana",
+    "Apellido":"Martínez",
+    "CorreoElectronico":"ana.martinez@email.com",
+    "Edad":28,
+    "Peso":"62.20",
+    "Estatura":"160.00",
+    "Sexo":"F"
+  }
+]
 ```
 
 ## Respuestas de Errores Posibles
