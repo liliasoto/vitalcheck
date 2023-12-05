@@ -4,7 +4,7 @@ Permite reemplazar un dato de un usuario.
 
 ## Ejemplo de Solicitud
 ```http
-PUT /usuarios/6
+PATCH /usuarios/6
 
 Content-Type: application/json
 {

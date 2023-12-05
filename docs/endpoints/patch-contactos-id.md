@@ -4,7 +4,7 @@ Permite reemplazar un dato de un contacto.
 
 ## Ejemplo de Solicitud
 ```http
-PUT /contactos/6
+PATCH /contactos/6
 
 Content-Type: application/json
 {
