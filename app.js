@@ -17,6 +17,10 @@ app.get('/', function (req, res){
 
 app.get('/usuarios', UsuariosController.indexGet);
 app.get('/usuarios/:id([0-9]+)', UsuariosController.itemGet);
+app.post('/usuarios', UsuariosController.indexPost);
+app.put('/usuarios/:id([0-9]+)', UsuariosController.itemPut);
+app.patch('/usuarios/:id([0-9]+)', UsuariosController.itemPatch);
+
 app.get('/contactos', ContactosControllers.indexGet);
 app.get('/mensajes', MensajesController.indexGet);
 app.get('/rno', RNOController.indexGet);
