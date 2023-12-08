@@ -1,4 +1,4 @@
-const MensajesModel = require('../models/mensajes');
+const MensajesModel = require('../models/Mensajes');
 
 class MensajesController {
     static async indexGet(req, res){

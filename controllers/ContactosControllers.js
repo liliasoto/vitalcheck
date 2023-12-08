@@ -1,4 +1,4 @@
-const ContactosModel = require('../models/contactos');
+const ContactosModel = require('../models/Contactos');
 
 class ContactosController {
     static async indexGet(req, res){
